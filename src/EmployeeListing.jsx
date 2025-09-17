@@ -28,7 +28,7 @@ export class EmployeeListing extends Component{
                          name: "Vivek",
                          designination: "Full stack Developer",
                          experience: "3 Years",
-                         qualification: "Bsc Cs"
+                         qualification: "BscCs"
                     }
 
                ]
