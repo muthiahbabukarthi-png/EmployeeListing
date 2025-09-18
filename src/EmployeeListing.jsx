@@ -42,7 +42,7 @@ export class EmployeeListing extends Component{
                     this.state.employeedetails.length > 0 ?
                     (
                          <table border='2' style={{width:"100%"}}>
-                              <tr>
+                              <tr style={{backgroundColor:"#8b8585", fontWeight: "bold", textAlign:"center"}}>
                                    <td>Emp Id</td>
                                    <td>Emp Name</td>
                                    <td>Designiation</td>
