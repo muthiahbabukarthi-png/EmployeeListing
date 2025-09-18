@@ -36,11 +36,12 @@ export class EmployeeListing extends Component{
      }
 
      render(){
-          return <div>
+          return <div style={{width:"100%"}}>
+               <h1 style={{textAlign:"center"}}>Employee List</h1>
                {
                     this.state.employeedetails.length > 0 ?
                     (
-                         <table border='2'>
+                         <table border='2' style={{width:"100%"}}>
                               <tr>
                                    <td>Emp Id</td>
                                    <td>Emp Name</td>
